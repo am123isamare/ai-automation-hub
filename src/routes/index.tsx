@@ -194,7 +194,7 @@ function Index() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <header className="fixed inset-x-0 top-0 z-40 border-b border-border/60 bg-background/60 backdrop-blur-xl">
-        <div className="mx-auto grid max-w-6xl grid-cols-[1fr_auto_1fr] items-center px-5 py-3.5">
+        <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3.5 lg:grid lg:grid-cols-[1fr_auto_1fr]">
           <a href="#top" className="font-display text-lg font-bold tracking-tight">AMNA<span className="text-primary">.</span></a>
           <nav className="hidden items-center gap-1 rounded-full border border-border/60 bg-card/40 p-1 text-sm lg:flex">
             {nav.map(([l, id]) => (

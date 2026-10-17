@@ -118,16 +118,16 @@ const contactSchema = z.object({
 });
 
 function ContactForm() {
-  const [err, setErr] = useState<Record<string, string>>({});
+  const [err, setErr] = useState<{ name?: string; email?: string; message?: string }>({});
   const [done, setDone] = useState(false);
   function submit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const fd = Object.fromEntries(new FormData(e.currentTarget)) as Record<string, string>;
     const r = contactSchema.safeParse(fd);
     if (!r.success) {
-      const m: Record<string, string> = {};
+      const m: { [k: string]: string } = {};
       r.error.issues.forEach((i) => (m[String(i.path[0])] = i.message));
-      setErr(m);
+      setErr(m as { name?: string; email?: string; message?: string });
       return;
     }
     setErr({});

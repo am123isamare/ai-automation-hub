@@ -222,7 +222,7 @@ function Index() {
             <div className="mt-8 flex flex-wrap gap-3">
               <a href="#projects" className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 font-semibold text-primary-foreground transition-transform hover:-translate-y-0.5">View projects <ArrowRight className="h-4 w-4" /></a>
               <a href={GITHUB} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 font-semibold transition-colors hover:bg-secondary"><Github className="h-4 w-4" /> GitHub</a>
-              <a href={LINKEDIN} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 font-semibold transition-colors hover:bg-secondary"><Linkedin className="h-4 w-4" /> LinkedIn</a>
+              <a href="/linkedin" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 font-semibold transition-colors hover:bg-secondary"><Linkedin className="h-4 w-4" /> LinkedIn</a>
             </div>
             <p className="mt-8 flex items-center gap-2 text-sm text-muted-foreground"><MapPin className="h-4 w-4" /> Bahawalpur, Pakistan</p>
           </div>
@@ -430,7 +430,7 @@ function Index() {
             <p className="mt-5 text-muted-foreground">I'm interested in AI automation, intelligent agents, API integrations and business workflow challenges where technology can create practical value.</p>
             <div className="mt-8 flex flex-wrap gap-3">
               <a href={`mailto:${EMAIL}`} className="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 font-semibold text-primary-foreground transition-opacity hover:opacity-90"><Mail className="h-4 w-4" /> Email Me</a>
-              <a href={LINKEDIN} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full border border-border px-5 py-2.5 font-semibold transition-colors hover:bg-secondary"><Linkedin className="h-4 w-4" /> LinkedIn</a>
+              <a href="/linkedin" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full border border-border px-5 py-2.5 font-semibold transition-colors hover:bg-secondary"><Linkedin className="h-4 w-4" /> LinkedIn</a>
               <a href={GITHUB} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full border border-border px-5 py-2.5 font-semibold transition-colors hover:bg-secondary"><Github className="h-4 w-4" /> GitHub</a>
             </div>
             <div className="mt-8 space-y-3 text-sm">

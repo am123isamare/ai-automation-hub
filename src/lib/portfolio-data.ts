@@ -6,10 +6,10 @@ import social from "@/assets/videos/ai-social-media-bot-demo-v2.mov.asset.json";
 import property from "@/assets/videos/Smart_Property_Consolidation_System.mp4.asset.json";
 import chatbot from "@/assets/videos/AI_Chatbot_Development_Project_1_1.mp4.asset.json";
 
-export const EMAIL = "amnahadia34@gmail.com";
+export const EMAIL = "hadiaaurangzaib02@gmail.com";
 export const PHONE = "+92 322 6184767";
 export const GITHUB = "https://github.com/amnahadia34-dotcom";
-export const LINKEDIN = "https://www.linkedin.com/in/amna-aurangzaib-051bbb364/?isSelfProfile=true";
+export const LINKEDIN = "https://www.linkedin.com/in/hadia-aurangzaib-796784304/";
 
 export type Project = {
   name: string;

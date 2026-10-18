@@ -8,8 +8,8 @@ import {
 } from "lucide-react";
 import { projects, EMAIL, PHONE, GITHUB, LINKEDIN, type Project } from "@/lib/portfolio-data";
 
-const TITLE = "Amna Aurangzaib — AI Automation Engineer Portfolio";
-const DESC = "AI agents, Python, APIs and SaaS business automation projects by Amna Aurangzaib, with demo videos and case studies.";
+const TITLE = "Hadia Aurangzaib — AI Automation Engineer Portfolio";
+const DESC = "AI agents, Python, APIs and SaaS business automation projects by Hadia Aurangzaib, with demo videos and case studies.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -195,7 +195,7 @@ function Index() {
     <div className="min-h-screen bg-background text-foreground">
       <header className="fixed inset-x-0 top-0 z-40 border-b border-border/60 bg-background/60 backdrop-blur-xl">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3.5 lg:grid lg:grid-cols-[1fr_auto_1fr]">
-          <a href="#top" className="font-display text-lg font-bold tracking-tight">AMNA<span className="text-primary">.</span></a>
+          <a href="#top" className="font-display text-lg font-bold tracking-tight">HADIA<span className="text-primary">.</span></a>
           <nav className="hidden items-center gap-1 rounded-full border border-border/60 bg-card/40 p-1 text-sm lg:flex">
             {nav.map(([l, id]) => (
               <a key={id} href={`#${id}`} className={`rounded-full px-3.5 py-1.5 transition-all duration-300 ${activeId === id ? "bg-primary/15 text-primary" : "text-muted-foreground hover:text-foreground"}`}>{l}</a>
@@ -215,7 +215,7 @@ function Index() {
         <div className="relative mx-auto grid max-w-6xl items-center gap-12 px-5 lg:grid-cols-[1.2fr_1fr]">
           <div>
             <p className="inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-3 py-1 font-mono text-xs text-muted-foreground"><span className="h-2 w-2 animate-pulse rounded-full bg-primary" /> Available for automation projects</p>
-            <h1 className="mt-6 font-display text-5xl font-extrabold leading-[1.05] tracking-tight md:text-7xl">AMNA<br /><span className="text-primary">AURANGZAIB</span></h1>
+            <h1 className="mt-6 font-display text-5xl font-extrabold leading-[1.05] tracking-tight md:text-7xl">HADIA<br /><span className="text-primary">AURANGZAIB</span></h1>
             <p className="mt-6 font-display text-xl font-semibold md:text-2xl">AI Automation Engineer</p>
             <p className="mt-2 font-mono text-sm text-accent">AI Agents • Python • APIs • SaaS & Business Automation</p>
             <p className="mt-6 max-w-xl text-lg text-muted-foreground">“Building intelligent systems that connect AI, APIs and real business workflows.”</p>
@@ -241,7 +241,7 @@ function Index() {
             <p className="reveal text-lg text-muted-foreground">I build AI-powered automation systems: agents, chatbots and API integrations that take repetitive tasks off people's plates and plug directly into the tools businesses already use.</p>
           </div>
           <div>
-            <SectionHead k="02 — About Amna" title="Engineer at the intersection of AI & APIs." />
+            <SectionHead k="02 — About Hadia" title="Engineer at the intersection of AI & APIs." />
             <div className="reveal">
               <p className="text-muted-foreground">I'm an AI Automation Engineer based in Bahawalpur, Pakistan, working mainly in Python. My focus is connecting large language models with platforms like WhatsApp, Facebook, Instagram, YouTube and Google Sheets to create practical, end-to-end workflows.</p>
               <p className="mt-4 text-muted-foreground">From voice agents to data consolidation tools, I enjoy turning a messy manual process into a clean, reliable system.</p>
@@ -443,7 +443,7 @@ function Index() {
         </div>
       </section>
 
-      <footer className="border-t border-border py-8 text-center text-sm text-muted-foreground">© {new Date().getFullYear()} Amna Aurangzaib · AI Automation Engineer</footer>
+      <footer className="border-t border-border py-8 text-center text-sm text-muted-foreground">© {new Date().getFullYear()} Hadia Aurangzaib · AI Automation Engineer</footer>
 
       {demo?.video && (
         <div className="fixed inset-0 z-[60] flex items-center justify-center bg-background/90 p-4 backdrop-blur animate-in fade-in" onClick={() => setDemo(null)}>

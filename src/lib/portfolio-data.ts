@@ -9,7 +9,7 @@ import chatbot from "@/assets/videos/AI_Chatbot_Development_Project_1_1.mp4.asse
 export const EMAIL = "amnahadia34@gmail.com";
 export const PHONE = "+92 322 6184767";
 export const GITHUB = "https://github.com/amnahadia34-dotcom";
-export const LINKEDIN = "https://www.linkedin.com/in/amna-aurangzaib-051bb364/";
+export const LINKEDIN = "https://www.linkedin.com/in/amna-aurangzaib-051bbb364/";
 
 export type Project = {
   name: string;

@@ -6,7 +6,7 @@ import {
   Rocket, ShieldCheck, FileText, Brain, MessageSquareCode, Code2, Webhook, LayoutDashboard, Table2, Braces, Share2,
   MessageCircle, Sheet, Video, GitBranch, ArrowDown, Send, Mic, Layers,
 } from "lucide-react";
-import { projects, EMAIL, PHONE, GITHUB, LINKEDIN, type Project } from "@/lib/portfolio-data";
+import { projects, EMAIL, PHONE, GITHUB, type Project } from "@/lib/portfolio-data";
 
 const TITLE = "Hadia Aurangzaib — AI Automation Engineer Portfolio";
 const DESC = "AI agents, Python, APIs and SaaS business automation projects by Hadia Aurangzaib, with demo videos and case studies.";
